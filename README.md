@@ -1,5 +1,17 @@
 # ISE_540_FinalProject
 
+## Datacollection_goo.ipynb
+This notebook shows the workflow of data collection of Disney Emoji Blitz's reviews from Google Play.
+
+## ClusterExploration.ipynb
+This notebook shows the process of cluster exploration. In order to explore possible features closely related to players' experience and ratings, we updated stopword to remove messy cluster results. After 3rd iteration, the clusters show many game-specific features.
+
+## classification_me_ad.ipynb
+This notebook shows the classifiers of 'mechanism' and of 'ad'.
+
+## Label_me_ad.ipynb
+This notebook implemented the classifiers of 'mechanism' and of 'ad' to unlabeled reviews. The result will be concatenated with other columns, and be used for score prediction.
+
 ## label_model_new.ipynb
 This notebook shows the workflow of choosing the best model to generate "reason matrix". We use Logistic Regression, Random Forest, SVM, SGD classifier and naive bayes classifier with default hyperparameters to predict each reason. This code just shows the workflow of deciding the best model used to predict if_useful tag. But the workflow of all these 10+ features should be nearly the same. 
 
