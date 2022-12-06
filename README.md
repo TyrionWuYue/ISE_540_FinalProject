@@ -1,5 +1,9 @@
 # ISE_540_FinalProject
 
+## Problem Statement
+In the post-epidemic era, people’s entertainment has migrated online, and thus players’ reviews become more important to game companies. Player churning and revenue drop are also essential research topics for the gaming industry. In order to figure out the causes, the research teams in game companies frequently designed and delivered online questionnaires, and conducted interviews to manually summarize the product-specific features closely related to players’ experience. However, not only research teams can’t measure the importance hierarchy for various reasons, but also they lack quantified metrics to monitor players’ experience before potential problems emerge or after the problems are fixed. In order to save the costs of game companies on the research side, we wish to extract information directly from players’ reviews and train NLP models to measure the contribution of each reason to the game’s rating.
+
+
 ## Datacollection_goo.ipynb
 This notebook shows the workflow of data collection of Disney Emoji Blitz's reviews from Google Play.
 
